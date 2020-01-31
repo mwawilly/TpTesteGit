@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Utilisation de GIT</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="style.css" rel="stylesheet">
+	</head>
+
+	<body>
+			 <nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="#">Site de moi</a>
+				</div>
+				<ul class="nav navbar-nav">
+				  <li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutos
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="git.html">GIT</a></li>
+					  <li><a href="#">???</a></li>
+					</ul>
+				  </li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Enregistrer</a></li>
+				  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Connection</a></li>
+				</ul>
+				 <form class="navbar-form navbar-right" action="/action_page.php">
+			  <div class="input-group">
+				<input type="text" class="form-control" placeholder="Search">
+				<div class="input-group-btn">
+				  <button class="btn btn-default" type="submit">
+					<i class="glyphicon glyphicon-search"></i>
+				  </button>
+				</div>
+			  </div>
+			</form> 
+			  </div>
+			</nav>
+		<div class="contenue">
+			<h1>GIT tuto</h1>
+			<p>Créer un compte sur Github <a href=""https://github.com/">https://github.com</a></p>
+			<p>En parallèle, créez un dossier avec la doc voulu</p>
+			<p>Dans le dossier, clic droit pour ouvrir <b>GIT bash</b></p>
+			<br>
+			<p>Dans l'invité de commande Git bash, commencer par initialiser votre projet avec la commande : git init </p>
+			<p>Il faut maintenant faire une "mini sauvegarde" de votre projet avec la commande : git add *  (* pour tout selectionner)</p>
+			<p>Rendre la sauvegarde "officiel" avec la commande : git commit -m"message"  (-m"" pour voir le message )</p>
+			<p>Si on veut cloner le projet déjà existant, la commande : git clone 'liens url'</p>
+			<p>Pour créer une branche au projet, la commande :  git branch 'nomDeLaBranche'</p>
+			<p>Pour naviguer entre les branches existantes, il faut utiliser la commande :  git checkout 'nomDeLaBranche'</p>
+			<p></p>
+		</div>
+		<script src="script.js"></script> 
+	</body>
+</html>
